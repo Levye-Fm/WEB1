@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Formulário</h2>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+    <form action="/formulario" method="post">
+        
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" rows="1" cols="60"></input> 
+        <br>
+        <div>
+          <label for="DataDeNascimento">Data de nascimento:</label>
+          <input type="date" id="DataDeNascimento" rows="1" cols="20"></input>
+        <br>
+          <label for="endereço">Endereço:</label>
+          <input type="Endereço" id="endereço" rows="1" cols="57"></input>
+        <br>
+            <label for="Bairro">Bairro:</label>
+            <input id="Bairro" rows="1" cols="25"></input>
+            <label for="Cidade">Cidade</label>
+            <input id="Cidade" rows="1" cols="25"></input>
+        <br>
+            <label for="CEP">CEP:</label>
+            <input id="CEP" rows="1" cols="25"></input>
+            <label for="Estado">Estado</label>
+            <select id="estado" name="estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <form action="/Formulario2" method="post"></form>
+            <label for="Natureza">Natureza do Cargo</label> <br>
+            <input type="radio">Gerência
+            <input type="radio">Fincanceiro
+            <input type="radio">Recepção
+            <INPUT TYPE="radio" > Administrativo
+            <INPUT TYPE="radio" > Jurídico
+            <br>
+            <label for="Area">Area De Interesse</label> <br>
+            <INPUT TYPE="checkbox" NAME="OPCAO1" VALUE="op1"> Computação
+                <INPUT TYPE="checkbox" > Química
+                <INPUT TYPE="checkbox" > Meio Ambiente
+                <INPUT TYPE="checkbox" > Engenharia
+                <INPUT TYPE="checkbox" > Matemática
+            <br>
+            <label for="Mini">Mini-currículo:</label> <br>
+            <textarea name="Curriculo" rows="5" cols="50"></textarea>
+   
+      </form>
+    </fieldset>
+</body>
+</html>
