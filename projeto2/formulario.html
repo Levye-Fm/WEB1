@@ -9,26 +9,25 @@
     <h2>Formulário</h2>
     <fieldset>
         <legend>Dados Pessoais</legend>
-    <form action="/formulario" method="post">
+        <form action="/formulario" method="post">
         
           <label for="nome">Nome:</label>
-          <input type="text" id="nome" rows="1" cols="60"></input> 
+          <input type="text" id="nome">
         <br>
-        <div>
           <label for="DataDeNascimento">Data de nascimento:</label>
-          <input type="date" id="DataDeNascimento" rows="1" cols="20"></input>
+          <input type="date" id="DataDeNascimento" >
         <br>
           <label for="endereço">Endereço:</label>
-          <input type="Endereço" id="endereço" rows="1" cols="57"></input>
+          <input type="endereço" >
         <br>
             <label for="Bairro">Bairro:</label>
-            <input id="Bairro" rows="1" cols="25"></input>
+            <input id="Bairro" >
             <label for="Cidade">Cidade</label>
-            <input id="Cidade" rows="1" cols="25"></input>
+            <input id="Cidade" >
         <br>
             <label for="CEP">CEP:</label>
-            <input id="CEP" rows="1" cols="25"></input>
-            <label for="Estado">Estado</label>
+            <input id="CEP">
+            <label for="estado">Estado</label>
             <select id="estado" name="estado">
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
@@ -64,11 +63,11 @@
             <legend>Dados profissionais</legend>
             <form action="/Formulario2" method="post"></form>
             <label for="Natureza">Natureza do Cargo</label> <br>
-            <input type="radio">Gerência
-            <input type="radio">Fincanceiro
-            <input type="radio">Recepção
-            <INPUT TYPE="radio" > Administrativo
-            <INPUT TYPE="radio" > Jurídico
+            <input type="radio" name="cargo" checked>Gerência
+            <input type="radio" name="cargo">Financeiro
+            <input type="radio" name="cargo">Recepção
+            <input type="radio" name="cargo">Administrativo
+            <input type="radio" name="cargo">Jurídico
             <br>
             <label for="Area">Area De Interesse</label> <br>
             <INPUT TYPE="checkbox" NAME="OPCAO1" VALUE="op1"> Computação
@@ -78,7 +77,7 @@
                 <INPUT TYPE="checkbox" > Matemática
             <br>
             <label for="Mini">Mini-currículo:</label> <br>
-            <textarea name="Curriculo" rows="5" cols="50"></textarea>
+            <textarea name="Mini" rows="5" cols="50"></textarea>
    
       </form>
     </fieldset>
