@@ -1,1 +1,33 @@
+main{
+    height: 60px;
+    width: 468px;
+}
 
+header {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 100%;
+}
+
+nav {
+    border: 1px solid black;
+    width: 100%;
+}
+#box1 {
+    width: 25%;
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+}
+#box2 {
+    width: 35%;
+    padding: 10px;
+    border: 1px solid black;
+    float: left;
+}
+#box3 {
+    width: 25%;
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+}
