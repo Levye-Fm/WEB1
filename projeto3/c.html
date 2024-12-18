@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css  ">
+</head>
+<body>
+    <header><h1>Formulário</h1></header>
+    <main>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form onsubmit="enviarFormulario(); return false" action="/formulario" method="post">
+        
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome">
+          <br>
+          <label for="E-Mail">E-Mail: </label>
+          <input type="email" id="Email">
+        <br>
+          <label for="DataDeNascimento">Data de nascimento:</label>
+          <input type="date" id="DataDeNascimento" >
+        <br>
+          <label for="endereço">Endereço:</label>
+          <input type="text" id="endereço">
+       
+        <br>
+            <label for="estado">Estado</label>
+            <select id="estado" name="estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>informações</legend>
+
+            <label for="Area">Como você costuma usar o navegador?</label> <br>
+            <INPUT TYPE="checkbox" id="Area" VALUE="op1"> Estudos
+                <INPUT TYPE="checkbox" > Jogos
+                <INPUT TYPE="checkbox" > Área profissional
+                <INPUT TYPE="checkbox" > Streaming
+                <INPUT TYPE="checkbox" > Acessar notícias
+            <br>
+            <label for="Mini">Oque você gostaria de ver no Lyrio?:</label> <br>
+            <textarea id="Mini" rows="5" cols="50"></textarea>
+            <br>
+            <button type="submit" id="botao">enviar</button>
+        </main>
+      </form>
+    </fieldset>
+   
+    <footer>
+        <p> Este projeto é apenas ilustrativo. Estas páginas foram desenvolvidas como atividade da
+            Disciplina Programação para Web I.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
