@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Mesas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Mesas</h1>
+        <div class="restaurante-map"> <h3>Mesas do restaurante</h3> <br>
+            <div class="mesa disponivel" onclick="pereca(1)">1</div>
+            <div class="mesa reservada" onclick="pereca(2)">2</div>
+            <div class="mesa em-uso" onclick="pereca(3)">3</div>
+            <div class="mesa reservada" onclick="pereca(4)">4</div>
+            <div class="mesa reservada" onclick="pereca(5)">5</div>
+            <div class="mesa disponivel" onclick="pereca(6)">6</div>
+            <br><br><h3>Explicação</h3> <br>
+            <div class="mesa disponivel" ></div><h5>:Disponivel</h5><br>   
+            <div class="mesa reservada" ></div><h5>:Reservada</h5><br>   
+            <div class="mesa em-uso" ></div><h5>:Em Uso</h5><br>   
+        </div>
+        <div class="mesa-info" id="mesaInfo1">
+            <button id="closi" onclick="closes(1)">X</button>
+            <h3>Mesa 1: disponivel</h3>
+            <p>Cadeiras: 4</p>
+            <p>Localização: Sala Principal</p>
+            <p>Preço: 35$</p>
+        </div>
+        <div class="mesa-info" id="mesaInfo2">
+            <button id="closi" onclick="closes(2)">X</button>
+            <h3>Mesa 2: reservada</h3>
+            <p>Cadeiras: 3</p>
+            <p>Localização: Sala Principal</p>
+            <p>Preço: 30$ </p>
+        </div>
+        <div class="mesa-info" id="mesaInfo3">
+            <button id="closi" onclick="closes(3)">X</button>
+            <h3>Mesa 3: em uso</h3>
+            <p>Cadeiras: 8</p>
+            <p>Localização: Sala Principal</p>
+            <p>preço: 50$</p>
+        </div>
+        <div class="mesa-info" id="mesaInfo4">
+            <button id="closi" onclick="closes(4)">X</button>
+            <h3>Mesa 4: reservada</h3>
+            <p>Cadeiras: 2</p>
+            <p>Localização: Lado De Fora</p>
+            <p>Preço: 20$</p>
+        </div>
+        <div class="mesa-info" id="mesaInfo5">
+            <button id="closi" onclick="closes(5)">X</button>
+            <h3>Mesa 5: reservada</h3>
+            <p>Cadeiras: 3</p>
+            <p>Localização: Lado de Fora</p>
+            <p>Preço: 30$ </p>
+        </div>
+        <div class="mesa-info" id="mesaInfo6">
+            <button id="closi" onclick="closes(6)">X</button>
+            <h3>Mesa 6: disponivel</h3>
+            <p>Cadeiras: 8</p>
+            <p>Localização: Sala Principal</p>
+            <p>preço: 50$</p>
+        </div>
+        
+    </div>
+    <script> 
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
