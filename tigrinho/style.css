@@ -1,0 +1,16 @@
+div {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+    display: flex;
+    float: left;
+}
+#div2 {
+    background-color: white;
+    height: 1000px;
+    width: 450px;
+    float: none;
+    display: block;
+}
